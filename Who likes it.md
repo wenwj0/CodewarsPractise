@@ -13,7 +13,7 @@ likes {"Alex", "Jacob", "Mark", "Max"} // must be "Alex, Jacob and 2 others like
 ```
 
 # Solution
-```
+```java
 class Solution {
     public static String whoLikesIt(String... names) {
         switch (names.length) {
