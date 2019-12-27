@@ -23,7 +23,7 @@ class Solution{
 }
 ```
 
-```
+```java
 import java.util.Arrays;
 
 class Solution{
@@ -36,8 +36,7 @@ class Solution{
   }
 }
 ```
-```
-
+```java
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.lang.StringBuilder;
@@ -45,7 +44,7 @@ import java.lang.StringBuilder;
 class Solution{
 
   static String toCamelCase(String s){
-    Matcher m = Pattern.compile("[_|-](\\w)").matcher(s);
+    Matcher m = Pattern.compile("[_|-](\\w)").matcher(s); //(\\w)是任何ASCII单字字符，等价于[a-zA-Z0-9_]
     StringBuffer sb = new StringBuffer();
     while (m.find()) {
         m.appendReplacement(sb, m.group(1).toUpperCase());
