@@ -20,7 +20,7 @@ error_printer(s) => "8/22"
 ```
 
 # Solution
-```
+```java
 public class Printer {
     
     public static String printerError(String s) {
@@ -29,7 +29,7 @@ public class Printer {
 }
 
 ```
-```
+```java
 public class Printer {
     
     public static String printerError(String s) {
@@ -38,8 +38,7 @@ public class Printer {
     }
 }
 ```
-```
-
+```java
 public class Printer {
     
     public static String printerError(String s) {
