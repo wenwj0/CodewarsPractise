@@ -8,7 +8,7 @@ toCamelCase("the-stealth-warrior"); // returns "theStealthWarrior"
 toCamelCase("The_Stealth_Warrior"); // returns "TheStealthWarrior"
 
 ```
-# Solution
+# Solutions
 ```java
 import java.lang.StringBuilder;
 class Solution{
